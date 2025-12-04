@@ -1,0 +1,27 @@
+# KARTS - BACKEND
+
+# 1. Clona el repo y entra a la carpeta
+git clone https://github.com/ldvelasco/backend-karts.git
+
+# 2. Crea el entorno virtual
+python -m venv .venv
+
+# 3. Activa el entorno virtual
+# ┌─────────────────────────────┐
+# │ Linux                       │
+# └─────────────────────────────┘
+source .venv/bin/activate
+
+# ┌─────────────────────────────┐
+# │ Windows PowerShell          │
+# └─────────────────────────────┘
+.venv\Scripts\Activate.ps1
+
+# ┌─────────────────────────────┐
+# │ Windows CMD                 │
+# └─────────────────────────────┘
+.venv\Scripts\activate.bat
+
+# 4. Instala las dependencias
+pip install --upgrade pip
+pip install -r requirements.txt

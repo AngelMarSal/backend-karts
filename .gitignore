@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Entorno virtual
+.venv*/
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+
+# Bases de datos
+*.db
+*.sqlite3
+*.sql
+
+# Logs y temporales
+*.log
+*.tmp
+temp/
+tmp/
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json  # opcional, si queréis compartir config
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Jupyter
+.ipynb_checkpoints
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build y distribución
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Alembic
+migrations/versions/*
+!migrations/versions/__init__.py
+
+# Node
+node_modules/
+
+# Cache de pip
+.pip-cache/

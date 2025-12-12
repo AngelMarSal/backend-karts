@@ -1,4 +1,4 @@
 fastapi[standard]
 sqlalchemy[asyncio]
-asyncpg
-pydantic-settings
+pymysql
+python-dotenv

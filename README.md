@@ -1,9 +1,10 @@
+<img width="256" height="256" alt="Karts System Logo" src="https://github.com/user-attachments/assets/e9f7ee0d-95f9-4360-b772-349fb920f36d" />
 # KARTS - BACKEND
 
 Backend del proyecto Karts desarrollado con **FastAPI** y **MySQL**.  
 El frontend está en el repo: [web-karts](https://github.com/ldvelasco/web-karts).
 
-## 📦 Tech Stack
+## Tech Stack
 
 - **Framework: FastAPI (Python)**
 - **Database: MySQL (v8.0)**
@@ -11,14 +12,14 @@ El frontend está en el repo: [web-karts](https://github.com/ldvelasco/web-karts
 - **Contenedores: Docker + Docker Compose**
 - **Frontend integrado: Soporte para React/Vite (en repo separado)**
 
-## 🛠️ Setup & Installation
+## Setup & Installation
 ###  Requisitos
 - **Docker Desktop** (Windows) o **Docker** (Linux) instalado y corriendo.  
   Descarga: https://www.docker.com/products/docker-desktop/
 
 ### Instalación
     1. En la misma carpeta clona ambos repositorios
-        ```sh
+        ```bash
         git clone https://github.com/ldvelasco/backend-karts.git
         git clone https://github.com/ldvelasco/web-karts.git
         cd backend-karts
@@ -30,7 +31,7 @@ El frontend está en el repo: [web-karts](https://github.com/ldvelasco/web-karts
         `copy .env.example .env`
         
         - Contenido de ejemplo
-        ```sh
+        ```bash
         # -----------------------------------------------------------------------------
         # Database (MySQL)
         # -----------------------------------------------------------------------------

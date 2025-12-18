@@ -1,4 +1,5 @@
 <img width="256" height="256" alt="Karts System Logo" src="https://github.com/user-attachments/assets/e9f7ee0d-95f9-4360-b772-349fb920f36d" />
+
 # KARTS - BACKEND
 
 Backend del proyecto Karts desarrollado con **FastAPI** y **MySQL**.  
@@ -18,32 +19,40 @@ El frontend está en el repo: [web-karts](https://github.com/ldvelasco/web-karts
   Descarga: https://www.docker.com/products/docker-desktop/
 
 ### Instalación
-    1. En la misma carpeta clona ambos repositorios
-        ```bash
-        git clone https://github.com/ldvelasco/backend-karts.git
-        git clone https://github.com/ldvelasco/web-karts.git
-        cd backend-karts
-        ```
-    2. Configura las variables de entorno
-        Copia el ejemplo
+  1. En la misma carpeta clona ambos repositorios  
+
+      ```bash
+      git clone https://github.com/ldvelasco/backend-karts.git
+      git clone https://github.com/ldvelasco/web-karts.git
+      cd backend-karts
+      ```
+    
+  3. Configura las variables de entorno
+
+      Copia el ejemplo
+     
         `cp .env.example .env`    # Linux/Mac
-        o en Windows:
+     
+      o en Windows:
+     
         `copy .env.example .env`
-        
-        - Contenido de ejemplo
-        ```bash
-        # -----------------------------------------------------------------------------
-        # Database (MySQL)
-        # -----------------------------------------------------------------------------
-        MYSQL_ROOT_PASSWORD=root123
-        MYSQL_DATABASE=karts_db
-        MYSQL_USER=karts
-        MYSQL_PASSWORD=karts123
-        DATABASE_URL=mysql+pymysql://karts:karts123@db:3306/karts_db
-        ```
-    3. Levanta todo (MySQL + Backend + Frontend):
+     
+      - Contenido de ejemplo
+  
+          ```bash
+          # -----------------------------------------------------------------------------
+          # Database (MySQL)
+          # -----------------------------------------------------------------------------
+          MYSQL_ROOT_PASSWORD=root123
+          MYSQL_DATABASE=karts_db
+          MYSQL_USER=karts
+          MYSQL_PASSWORD=karts123
+          DATABASE_URL=mysql+pymysql://karts:karts123@db:3306/karts_db
+          ```
+          
+  5. Levanta todo (MySQL + Backend + Frontend):
         `docker-compose up -d --build`
-    4. Abre en el navegador
+  6. Abre en el navegador
         - Backend
         `http://localhost:8000/`
         - Frontend
